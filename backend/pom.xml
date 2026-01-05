@@ -30,11 +30,18 @@
 		<java.version>21</java.version>
 	</properties>
 	<dependencies>
-		<!-- Spring Boot Web (includes WebMVC, Tomcat, Jackson) -->
+		<!-- Spring Boot Web -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+
+		<!-- Socket (websocket)-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-websocket</artifactId>
+		</dependency>
+
 
 		<!-- Spring Boot Test -->
 		<dependency>
